@@ -1,12 +1,19 @@
 # challenge 1
 
-Actually, i play a game and i want to be the best in this game,
-and for this i need to win X medals.
+I play a game and want to be the best at it. In order to be the best, I need to win a certain amount of medals.
 
-For win my first medal i need to win 20 battles  
-For the second i need to win 21 battles  
-For the third, 22, the fourth 23 etc...  
+I need to win 20 battles to win my first medal.
+Once I've won my first medal, I'll need to win 21 more battles to obtain a second one.
+For the third I'll need 22 more victories, the fourth 23 more etc...
 
-But i want to know how calculating the numbers of battles i need to win for win my X medals
+Example : 
+```javascript
+myFunction(1); // 20
+myFunction(2); // 41
+myFunction(3); // 63
+```
 
-write me a function for solving my problem without using for loops
+
+How many battles do I need to win x medals.
+
+Write a function whitout using loops and recursion which calculate the amount of victories needed to win x medals.
